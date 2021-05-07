@@ -1,3 +1,7 @@
 # 👋 Personal Website
 <br> <br>
-Included my social links and my projects
+
+## Live version of the website
+https://personal-portfolio.sanrajmalik.repl.co/
+
+ This includes information about me and my projects
