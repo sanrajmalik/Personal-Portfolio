@@ -115,6 +115,14 @@ const projects = [
     codeLink: "https://github.com/sanrajmalik/Ecommerce-Project",
     demoLink: "https://ecommerce-project.sanrajmalik.repl.co/product.html"
   },
+  {
+    projectName: "Shopping Cart Using Javascript",
+    projectDescription:
+      "Plain simple HTML, CSS, JavaScript Project",
+    projectImage: "images/ecomjs.jpg",
+    codeLink: "https://github.com/sanrajmalik/Ecommerce-Project",
+    demoLink: "https://ecommerce-project.sanrajmalik.repl.co/product.html"
+  },
   
 ];
 
