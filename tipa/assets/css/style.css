@@ -1,0 +1,1120 @@
+:root {
+    --blue: #4286EF;
+    --white:#fff;
+    --black:#000;
+    --menu:#3D484D;
+    --light-blue:#4286EF;
+    --red:rgba(236, 95, 95, 0.05);
+    --red-bg:#EC5F5F;
+
+    
+}
+
+html {
+    font-size: inherit;
+    overflow-x: hidden;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    //font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    box-sizing: border-box;
+}
+
+
+a{
+    text-decoration: none;
+    color: var(--black);
+}
+
+a:hover{
+    color: var(--black);
+
+}
+
+.shadow{
+    box-shadow: 0px 6px 20px rgba(29, 82, 163, 0.12) !important;
+}
+
+
+
+/* header */
+
+nav.navbar.fixed-top.navbar-expand-lg.navbar-light {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: var(--white);
+}
+
+.navbar-brand {
+    text-align: center;
+    margin-right: 40px;
+    padding: 20px;
+}
+
+.navbar-brand img {
+    width: 60px;
+}
+
+.nav-link {
+    font-weight: 600;
+    font-size: 15px;
+    margin: 5px 5px;
+    padding: 10px;
+    color: var(--menu) !important;
+}
+
+ button {
+    padding: 10px 25px;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+ .pre-btn {
+    border: 2px solid var(--blue);
+    color: var(--light-blue);
+    background: var(--white);
+}
+
+.next-btn {
+    border: 2px solid var(--blue);
+    background: var(--blue);
+    color: var(--white);
+}
+
+/* footer  */
+
+.footer {
+    display: none;
+    background-color:  var(--white);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    
+}
+
+
+.footer .navbar2 ul{
+    margin: 15px 0;
+}
+
+
+/* Css for content  */
+
+/* After login starts */
+
+#acc-del {
+    margin-top: 93px;
+    margin-bottom: 30px;
+}
+
+
+.acc-del h2{
+    font-weight: 400;
+    text-align: center;
+    color: #4286EF;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:40px 0px;
+}
+
+.acc-del h2 span{
+    color: black;
+}
+
+.acc-del .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.acc-del .box{
+    background: #fff;
+    padding: 18px;
+    box-shadow: 0px 8px 20px rgba(38, 98, 192, 0.12);
+    border-radius: 16px;
+    
+}
+
+.acc-del .box img{
+    height: 65px;
+    width: 65px;
+    padding: 13px 10px;
+    border-radius: 15px;
+}
+
+.acc-del .box .img{
+    width: 65px;
+}
+
+.acc-del .box .image-box1{
+    background-color: rgba(159, 193, 247, 0.22);
+    align-items: center;
+    border-radius: 13.6875px;
+}
+
+.acc-del .box .image-box2{
+    background-color: rgba(236, 186, 47, 0.2);
+    align-items: center;
+    border-radius: 13.6875px;
+}
+
+.acc-del .box .image-box3{
+    background-color:rgba(147, 202, 236, 0.2);
+    align-items: center;
+    border-radius: 13.6875px;
+}
+
+.acc-del .box .image-box4{
+    background-color: rgb(245 234 228);
+    align-items: center;
+    border-radius: 13.6875px;
+}
+
+.acc-del .box .image-box5{
+    background-color: rgba(118, 233, 180, 0.2);
+    align-items: center;
+    border-radius: 13.6875px;
+}
+
+.acc-del .box .image-box6{
+    background-color: rgba(110, 162, 242, 0.22);
+    align-items: center;
+    border-radius: 13.6875px;
+}
+
+
+.acc-del .box .image-box6 img{
+    padding: 8px 16px;
+}
+
+.acc-del .box .content{
+    height: 5rem;
+    margin-top: 25px;
+}
+
+.acc-del .box .content h4{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* after login ends  */
+
+/* courses starts  */
+
+
+#mycourses {
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+
+
+.mycourses h2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.mycourses h2 i{
+    font-size: 45px;
+    margin-right: 10px;
+    color: rgba(103, 95, 101, 1);
+}
+
+.mycourses h4{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.mycourses .box{
+    box-shadow: 0px 6px 20px rgba(29, 82, 163, 0.12);
+    border-radius: 16px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.mycourses .box1{
+    background: #fff;
+    padding: 18px;
+    display: flex;
+    border-radius: 16px;
+}
+
+.mycourses .vdo{
+    height: 85px;
+    width: 85px;
+    
+}
+
+.mycourses .vdo video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.mycourses .box .content{
+    padding-left: 20px;
+}
+
+.mycourses .box h6{
+    font-weight: bold;
+    padding: 5px 0px;
+}
+
+.mycourses .box .content p{
+    font-size: 14px;
+    padding-top: 10px;
+    margin-bottom: 5px;
+}
+
+.mycourses .box .content .bar {
+    height: 5px;
+    width: 400px;
+    background: #dce4e5;
+    border-radius: 9999px;
+    overflow: hidden;
+}
+.mycourses .box .box2 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 100%;
+} 
+
+
+
+.mycourses .box .exit-btn {
+    background: none;
+    border: none;
+    color: blue;
+}
+
+.mycourses .box .go-btn {
+    background: blue;
+    border: none;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.completed-bar{
+    color: rgba(61, 224, 127, 1);
+}
+
+/* courses ends  */
+
+/* fees starts */
+
+#myfees {
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+
+
+.myfees h2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.myfees h2 i{
+    font-size: 45px;
+    margin-right: 10px;
+    color: rgba(103, 95, 101, 1);
+}
+
+.myfees .box{
+    box-shadow: 0px 6px 20px rgba(29, 82, 163, 0.12);
+    border-radius: 16px;
+    height: 150px;
+    margin: 30px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+}
+
+.myfees .box span{
+    font-size: 32px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.table>:not(caption)>*>* {
+    border-bottom-width: 0px !important;
+}
+
+thead{
+    border-radius: 16px;
+}
+
+th{
+    padding: 20px !important;
+}
+
+td{
+    padding: 40px 30px !important;
+}
+
+.td-fee{
+    color: rgba(66, 134, 239, 1);
+}
+
+.td-amt{
+    color: rgba(240, 173, 73, 1);
+}
+
+.td-paid{
+    color: rgba(61, 224, 127, 1);
+}
+
+.td-notpaid{
+    color: rgba(236, 95, 95, 1);
+}
+
+.arrow {
+    border: solid #4286EF;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-bottom: 2px;
+    margin-left: 4px;
+  }
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+  /* fees ends  */
+
+  /* how to refer  */
+
+    #referral-form {
+        margin-top: 90px;
+        margin-bottom: 30px;
+    }
+
+  
+.referral-form .first-part .box{
+    text-align: center;
+    margin: 50px 0;
+}
+
+
+.referral-form .middle-part .box{
+    margin: 20px;
+}
+
+
+.referral-form .middle-part .box div{
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+
+.referral-form .middle-part .box .input-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    outline: none;
+    margin: 5px 0;
+    border-radius: 10px !important;
+    border: 1px solid #c9c9b6;
+}
+
+.referral-form .last-part .box{
+    text-align: center;
+    margin: 50px 0;
+}
+
+
+.referral-form .last-part .submit-btn{
+    border: none;
+    color: #fff;
+    background-color: #4286EF;
+    border-radius: 16px;
+    padding: 15px;
+    margin-bottom: 20px;
+    width: 35%;
+}
+
+
+.referral-form .last-part .see-ref a{
+    color: #4286EF;
+}
+
+/* how to refer ends  */
+
+/* your referral starts  */
+
+#myreferral {
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+
+.myreferral .first-part .box{
+    margin: 50px 0 0 0;
+}
+
+.myreferral p{
+    text-align: justify;
+}
+
+
+.myreferral .middle-part .box .input-field {
+    width: 50%;
+    padding: 10px;
+    font-size: 14px;
+    outline: none;
+    margin: 5px 0;
+    border-radius: 10px !important;
+    border: 1px solid #c9c9b6;
+}
+
+
+.myreferral .middle-part .ref-btn{
+    border: none;
+    color: #fff;
+    background-color: #F0AD49;
+    border-radius: 16px;
+    width: 50%;
+    padding: 13px;
+    font-weight: bold;
+}
+
+.myreferral .middle-part .box.right {
+    text-align: right;
+}
+
+.myreferral .middle-part {
+    margin-bottom: 40px;
+}
+
+
+.table>:not(caption)>*>* {
+    border-bottom-width: 0px !important;
+}
+
+thead{
+    border-radius: 16px;
+}
+
+th{
+    padding: 20px !important;
+}
+
+td{
+    padding: 30px 20px !important;
+}
+
+
+.arrow {
+    border: solid #4286EF;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-bottom: 4px;
+    margin-left: 8px;
+  }
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+.mob{
+    color: #4286EF;
+}
+
+.date{
+    color: #F0AD49;
+}
+
+/* your referral ends  */
+
+/* claims starts  */
+
+
+
+#claims{
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+
+.claims .first-part .box{
+    margin: 50px 0;
+}
+
+
+.claims .middle-part .box{
+    margin: 20px;
+}
+
+
+.claims .middle-part{
+    box-shadow: 0px 8px 20px rgba(38, 98, 192, 0.20);
+    border-radius: 16px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    text-align: center;
+    width: 80%;
+}
+
+
+.claims .middle-part .box div{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.claims .middle-part2 .box .input-field {
+    width: 50%;
+    padding: 10px;
+    font-size: 14px;
+    outline: none;
+    margin: 5px 0;
+    border-radius: 10px !important;
+    border: 1px solid #c9c9b6;
+}
+
+
+.claims .middle-part2 .ref-btn{
+    border: none;
+    color: #fff;
+    background-color: #F0AD49;
+    border-radius: 10px;
+    padding: 13px;
+    font-weight: bold;
+    width: 50%;
+}
+
+
+.claims .middle-part2 .box.right {
+    text-align: right;
+}
+
+.claims .row.middle-part2 {
+    margin-bottom: 50px;
+}
+
+.date{
+    color: #F0AD49;
+}
+
+
+.td-fee{
+    color: rgba(66, 134, 239, 1);
+}
+
+.td-amt{
+    color: rgba(240, 173, 73, 1);
+}
+
+.td-paid{
+    color: rgba(61, 224, 127, 1);
+}
+
+.td-notpaid{
+    color: rgba(236, 95, 95, 1);
+}
+
+
+/* claims ends  */
+
+
+/* exams starts  */
+
+#exams {
+    margin-top: 92px;
+    margin-bottom: 30px;
+}
+
+.exams .first-part .box{
+    margin: 25px 0;
+}
+
+
+.exams h3{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.exams h3 i{
+    font-size: 50px;
+    margin-right: 10px;
+    color: rgba(103, 95, 101, 1);
+}
+
+
+.exams .first-part h2{
+    margin-bottom: 20px;
+}
+
+
+.exams .first-part h6{
+    font-weight: 600;
+    text-align: justify;
+}
+
+
+.exams .first-part h5{
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+
+.exams .first-part p{
+    margin-bottom: 10px;
+}
+
+
+.exams .startquiz-btn {
+    border: none;
+    color: #fff;
+    background-color: #4286EF;
+    border-radius: 16px;
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 30%;
+}
+
+
+/* exams ends  */
+
+/* exam-qus start */
+
+#exam-qus {
+    margin-top: 92px;
+    margin-bottom: 30px;
+}
+
+.exam-qus .first-part .box{
+    margin-top: 25px;
+}
+
+
+.exam-qus .first-part h3{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.exam-qus .first-part h3 i{
+    font-size: 50px;
+    margin-right: 10px;
+    color: rgba(103, 95, 101, 1);
+}
+
+.exam-qus .first-part p{
+    text-align: center;
+}
+
+
+.exam-qus .mid-part h5{
+    font-weight: 600;
+}
+
+
+.exam-qus .mid-part .time-btn{
+    color: #fff;
+    border: none;
+    background: #F0AD49;
+    padding: 10px 24px;
+    border-radius: 12px;
+}
+
+
+.exam-qus .mid-part .time-btn i{
+    margin-right: 7px;
+}
+
+
+.exam-qus .mid-part .box2{
+    text-align: center;
+}
+
+
+.exam-qus .last-part div{
+    padding: 10px 3px;
+}
+
+.exam-qus .last-part .select i{
+    color: #4286EF;
+}
+
+.exam-qus .last-part i{
+    margin-right: 7px;
+}
+
+.exam-qus .last-part button {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-top: 25px;
+    width: 47%;
+}
+
+
+.exam-qus .last-part .pre-btn{
+    border: 2px solid #4286EF;
+    color: #4286EF;
+    background: #fff;
+}
+
+
+.exam-qus .last-part .next-btn{
+    border: 2px solid #4286EF;
+    background: #4286EF;
+    color: #fff;
+}
+
+/* exam-qus ends  */
+
+/* referral starts  */
+
+
+#referral {
+    margin-top: 92px;
+    margin-bottom: 30px;
+}
+
+
+.referral .first-part .box{
+    
+    border-radius: 24px;
+    padding: 20px;
+    height: 180px;
+    margin: 30px 5px 50px 5px;
+    display: flex;
+    justify-content: space-between;;
+    align-items: center;
+    font-size: 19px;
+}
+
+.referral .first-part i{
+    color: #fff;
+}
+
+.referral .first-part i.fa-solid.fa-users {
+    background-color: rgb(26 104 219);
+}
+
+.referral .first-part .box .content {
+    color: #fff;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.referral .first-part .left i{
+    font-size: 26px;
+    padding: 15px;
+    text-align: center;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.referral .first-part i.fa-solid.fa-indian-rupee-sign{
+    background-color: rgb(223 147 35);
+}
+
+.referral .first-part i.fa-solid.fa-user-group{
+    background-color: rgb(75 165 221);   
+}
+
+.referral .middle-part{
+    background: rgba(66, 134, 239, 0.08);
+    border-radius: 24px;
+    padding: 35px;
+
+}
+
+.referral .middle-part .left{
+    padding: 30px 0;
+}
+
+.referral .middle-part .left 
+.ref {
+    padding: 25px 0;
+}
+
+.referral .middle-part .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.referral .middle-part .left 
+.ref div{
+    margin-bottom: 15px;
+}
+
+
+.referral .middle-part .left .input-field {
+    width: 70%;
+    padding: 10px;
+    font-size: 14px;
+    outline: none;
+    margin: 5px 0;
+    border-radius: 10px !important;
+    border: 1px solid #c9c9b6;
+}
+
+
+.referral .middle-part .left .copy-btn {
+    background-color: rgba(66, 134, 239, 1);
+    color: #fff;
+    padding: 9px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 10px;
+    width: 20%;
+}
+
+
+.referral .middle-part .left .social{
+    text-align: center;
+    margin-top: 10px
+}
+
+
+.referral .middle-part .left .social
+i{
+    font-size: 20px;
+    margin-right: 6px
+}
+
+
+.referral .middle-part .left .social button{
+    padding: 20px;
+    color: #fff;
+    border-radius: 15px;
+    margin: 5px;
+    font-size: 15px;
+    border: none;
+    width: 30%;
+}
+
+
+.referral .middle-part .left 
+.social .conn{
+  margin-top: 20px;
+}
+
+
+.referral .last-part .box{
+    text-align: center;
+    margin: 50px 0;
+}
+
+.referral .last-part .add-btn{
+    border: none;
+    color: #fff;
+    background-color: #F0AD49;
+    border-radius: 16px;
+    padding: 15px;
+    width: 25%;
+}
+
+
+/* referral ends  */
+
+/* student login starts  */
+
+
+.stu-login .right{
+    background-color: #F0F5FC;
+    text-align: center;
+    border-radius: 18px;
+    height: 93vh;
+    width: 40%;
+    position: fixed;
+    margin: 20px 0;
+}
+
+.stu-login .right .img1{
+    padding: 35px 0;
+}
+
+.stu-login .right .img2{
+    width: 100%;
+}
+
+
+.stu-login .left{
+    margin: 20px;
+    padding: 10px;
+    height: 93vh;
+    position: relative;
+}
+
+.stu-login .left .box1 h2{
+    font-weight: 600;
+    
+}
+
+.stu-login .left .box-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stu-login .aff-btn{
+    border: none;
+    background: #4286EF;
+    color: #fff;
+    border-radius: 13px;
+    padding: 12px 18px;
+    box-shadow: 0px 10px 15px rgba(29, 82, 163, 0.15);
+}
+
+.stu-login .box h6{
+    font-weight: bold;
+    margin: 11px 0;
+}
+
+
+.stu-login .box .input-field {
+    width: 100%;
+    padding: 15px;
+    font-size: 14px;
+    outline: none;
+    margin: 5px 0;
+    border-radius: 10px !important;
+    background: rgba(194, 201, 204, 0.05);
+    border: 1px solid rgba(66, 134, 239, 0.2);
+}
+
+/* comment Css for Invalid Mob-No */
+/* 
+.stu-login .mob-no .input-field{
+    background: var(--red);
+    border: 1px solid var(--red-bg);
+} */
+
+.stu-login .box {
+    padding: 8px 0;
+}
+
+
+.stu-login .bot {
+    position: absolute;
+    bottom: 0;
+}
+
+
+.stu-login .prm-btn{
+    border: none;
+    background: #4286EF;
+    color: #fff;
+    border-radius: 13px;
+    padding: 15px 20px;
+    box-shadow: 0px 10px 15px rgba(29, 82, 163, 0.15);
+    width: 100%;
+}
+
+
+.stu-login p{
+    text-align: center;
+    margin: 25px 0;
+}
+
+.stu-login p a{
+    color: #4286EF;
+}
+
+.stu-login .left-img{
+    display: none;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.stu-login .left-img img {
+    height: 35px;
+}
+
+/* student login ends  */
+
+/* student signup starts  */
+
+#stu-signup .left{
+    height: 800px;
+}
+
+#stu-signup .right .laptop{
+    min-height: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#stu-signup .right .img2{
+    width: 380px;
+}
+
+
+.stu-login .custom_select select {
+    width: 100%;
+    padding: 15px;
+    font-size: 14px;
+    outline: none;
+    margin: 5px 0;
+    border-radius: 10px !important;
+    border: 1px solid rgba(66, 134, 239, 0.2);
+}
+
+.form-select:focus {
+    box-shadow: none !important;
+}
+
+.form-select {
+    display: unset;
+    background-color: rgba(194, 201, 204, 0.05);
+}
+
+/* student signup ends  */
+
+
+/* otp verification starts  */
+
+.otp-ver p {
+    text-align: left;
+    margin: 10px 0;
+}
+
+.otp-ver .box .otpfield {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.otp-ver .box .input-field {
+    width: 50px;
+    text-align: center;
+    margin: 5px 5px;
+}
+
+.otp-ver .box {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.otp-ver .left{
+    height: 90vh !important;
+}
+
+.otp-ver .box p {
+    text-align: center;
+}
+
+
+
+/* otp verification ends  */
+

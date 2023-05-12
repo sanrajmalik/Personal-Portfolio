@@ -1,0 +1,976 @@
+@media screen and (max-width:991px) {
+    /* header footer starts */
+
+    .navbar-brand img {
+        width: 42px;
+    }
+
+    .navbar-brand {
+        text-align: center;
+        margin-right: 10px;
+        padding: 10px;
+    }
+
+    .nav1{
+        display: none !important;
+    }
+
+    .navbar {
+        flex-wrap: unset;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        justify-content: end
+    }
+
+    .navbar button {
+        padding: 2px 20px;
+        border-radius: 5px;
+        margin-right: 5px;
+        font-size: 15px;
+        height: 35px;
+        margin-top: 10px;
+    }
+
+    .pre-btn {
+        border: none;
+        padding: 8px 15px;
+    }
+
+    
+    .footer{
+        display: block;
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+        left: 0px;
+        
+    }
+
+
+    .footer .navbar2 ul{
+        list-style: none;
+        display: flex;
+        padding: 0 !important;
+        justify-content: space-between;
+    }
+
+    .footer .navbar2 ul .nav-item2{
+        text-align: center;
+        
+    }
+
+    .footer .navbar2 ul .nav-item2 i{
+        font-size: 20px;
+    }
+
+    .footer .navbar2 ul .nav-item2 a{
+        font-size: 12px;
+       
+    }
+
+     /* header footer ends */
+
+
+     #acc-del {
+        margin-top: 70px;
+        margin-bottom: 95px;
+    }
+
+    #acc-del .image {
+        margin-bottom: 25px;
+    }
+
+
+
+     /* my courses starts  */
+
+     #mycourses {
+        margin-top: 90px;
+        margin-bottom: 100px;
+    }
+
+     .mycourses h2 i{
+        font-size: 30px;
+        margin-right: 4px;
+    }
+
+    .mycourses h2 {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+
+    .mycourses h4 {
+        margin-top: 25px;
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+
+    .mycourses .box .content {
+        padding-left: 15px;
+    }
+
+    .mycourses .box {
+        margin-top: 10px;
+        margin-bottom: 15px;
+        padding: 5px 0 15px 0;
+    }
+
+    .mycourses .box h6 {
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+    }
+    .mycourses .box1 {
+        padding: 15px 10px;
+    }
+
+    .mycourses .box .content .bar {
+        width: 250px;
+    }
+
+    .mycourses .vdo {
+        height: 50px;
+        width: 50px;
+    }
+
+    .mycourses .vdo video {
+        border-radius: 8px;
+    }
+
+    .mycourses .box .content p {
+        font-size: 13px;
+        padding: 2px;
+    }
+
+    .mycourses .box .box2 button{
+        padding: 10px 12px !important;
+        border-radius: 12px !important;
+        font-size: 12px;
+    }
+
+     /* my fees  */
+
+     #myfees {
+        margin-top: 90px;
+        margin-bottom: 75px;
+    }
+
+     .myfees h2 i{
+        font-size: 35px;
+        margin-right: 4px;
+    }
+
+    .myfees h2 {
+        font-size: 25px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+
+    .myfees .box {
+        border-radius: 10px;
+        height: auto;
+        margin: 10px 5px;
+        padding: 20px;
+    }
+
+    .myfees .box span {
+        margin-left: 0;
+    }
+
+    .myfees .col-4{
+        padding: 0;
+    }
+
+    .myfees .box a{
+        text-align: center;
+    }
+
+    .myfees .col-md-12 {
+        padding: 5px;
+    }
+
+    i.arrow.down {
+        display: none;
+    }
+
+    .myfees .table{
+        box-shadow: 0px 0px 14px rgba(29, 82, 163, 0.08);
+        border-radius: 10px;
+    }
+
+    td {
+        vertical-align: middle;
+    }
+
+    .table>thead {
+        vertical-align: middle;
+    }
+
+     thead {
+        border-radius: 10px;
+    }
+
+    /* how to refer  */
+
+    #referral-form {
+        margin-top: 50px;
+        margin-bottom: 80px;
+    }
+
+    .referral-form .first-part .box {
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+    
+    .referral-form .middle-part .box {
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+
+    .referral-form .last-part .box {
+        margin: 20px 0;
+    }
+
+    /* your referral  */
+
+    #myreferral{
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
+        
+    .myreferral .first-part .box h3{
+        font-size: 20px;
+    }
+
+
+    .myreferral .first-part .box p{
+        font-size: 12px;
+    }
+
+    .myreferral .middle-part .box .input-field {
+        width: 100%;
+        margin: 5px 0 15px 0;
+    }
+
+    
+    .myreferral .middle-part .ref-btn{
+            width: 100%;
+    }
+
+     .shadow {
+        box-shadow: none !important;
+    }
+
+    .myreferral .middle-part {
+        margin-bottom: 25px;
+    }
+   
+
+    .myreferral .row.last-part{
+        overflow-x: auto;
+        box-shadow: 0px 0px 14px rgba(29, 82, 163, 0.08);
+        border-radius: 10px;
+    }
+
+    /* claims  */
+
+    #claims{
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
+    .claims .first-part .box {
+        margin: 50px 0 0 0;
+    }
+
+    .claims .middle-part .box div {
+        font-size: 18px;
+    }
+
+    .claims .middle-part .box p{
+        font-size: 16px;
+    }
+
+    .claims .middle-part .col-4{
+        padding: 0;
+    }
+
+    .claims .middle-part {
+        border-radius: 12px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        width: 100%;
+        --bs-gutter-x: 0;
+    }
+
+    .claims .middle-part .box {
+        margin: 15px;
+    }
+
+
+    .claims .middle-part2 .box .input-field {
+        width: 100%;
+        margin: 5px 0 15px 0;
+    }
+
+     
+    .claims .middle-part2 .ref-btn{
+            width: 100%;
+    }
+
+    .claims .row.last-part {
+        overflow-x: auto;
+    }
+
+    .claims .row.middle-part2 {
+        margin-bottom: 25px;
+    }
+
+    .claims .row.last-part{
+        overflow-x: auto;
+        box-shadow: 0px 0px 14px rgba(29, 82, 163, 0.08);
+        border-radius: 10px;
+    }
+
+    /* exams  */
+
+    #exams {
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+
+    .exams h3 i{
+        font-size: 35px;
+        margin-right: 4px;
+    }
+
+    .exams h3 {
+        font-size: 25px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+
+    .exams .first-part .box {
+        margin: 15px 0;
+    }
+
+    .exams .first-part h2 {
+        margin-bottom: 15px;
+    }
+
+    .exams .first-part h6 {
+        font-size: 14px;
+    }
+
+    .exams .first-part h5 {
+        margin-top: 25px;
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    .exams .first-part p {
+        font-size: 13px;
+    }
+
+    .exams .startquiz-btn {
+        width: 100%;
+    }
+
+    /* exam-qus  */
+
+        
+    #exam-qus {
+        margin-top: 70px;
+        margin-bottom: 90px;
+    }
+
+    .exam-qus .first-part h3 i{
+        font-size: 35px;
+        margin-right: 4px;
+    }
+
+    .exam-qus .first-part h3 {
+        font-size: 25px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+
+    .exam-qus .first-part .box {
+        margin-top: 15px;
+    }
+
+    .exam-qus .first-part p {
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    .exam-qus .mid-part h5 {
+        text-align: left;
+        font-size: 18px;
+    }
+
+    .exam-qus .last-part div {
+        padding: 5px 3px;
+        font-size: 15px;
+    }
+
+     /* referral  */
+
+     #referral {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    .referral .first-part .box {
+        border-radius: 12px;
+        height: auto;
+        margin: 10px 5px;
+        font-size: 14px;
+        padding: 15px;
+        width: 100%;
+    }
+
+    .referral .first-part .box .content {
+        margin-top: 5px;
+    }
+
+    .referral .first-part .left i {
+        font-size: 14px;
+        padding: 10px;
+        width: 40%;
+        border-radius: 10px;
+    }
+
+    .referral .middle-part {
+        border-radius: 12px;
+        padding: 15px 5px;
+        margin-top: 10px;
+    }
+
+    .referral .middle-part .left {
+        padding: 0;
+    }
+
+    .referral .middle-part .left h2{
+        font-size: 20px;
+    }
+
+
+    .referral p{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .referral .middle-part .left .ref {
+        padding: 10px 0;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .referral .middle-part .left .ref div {
+        margin-bottom: 5px;
+        text-align: left;
+    }
+
+    .referral .middle-part .left .input-field {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .referral .middle-part .left .copy-btn {
+        border-radius: 7px;
+        margin-top: 10px;
+        width: 30%;
+    }
+
+    .referral .middle-part .left .social button {
+        padding: 15px;
+        border-radius: 10px;
+        font-size: 14px;
+        width: 45%;
+    }
+
+    .referral .last-part .box {
+        margin: 25px 0;
+    }
+    
+    .referral .last-part .box h5{
+        font-size: 14px;
+    }
+
+    .referral .last-part .add-btn {
+        border-radius: 10px;
+        padding: 12px;
+        width: 45%;
+        font-size: 14px;
+    }
+
+    .referral .middle-part .left .social .conn {
+        margin-top: 10px;
+    }
+
+    /* student login  */
+
+    
+    .stu-login .left .box1 h2{
+        font-size: 18px;
+    
+    }
+
+    .stu-login .left {
+        margin: 20px 5px;
+        padding: 0;
+    }
+
+    .stu-login .aff-btn {
+        border-radius: 10px;
+        padding: 10px 10px;
+        margin: 0;
+        font-size: 12px;
+    }
+
+    .stu-login .box h6 {
+        margin: 5px 0;
+        font-size: 14px;
+    }
+
+
+ 
+    
+
+    
+
+
+  
+
+
+}
+
+
+
+@media (min-width:320px) and (max-width:425px){
+
+
+     /* after login starts  */
+
+     .acc-del h2 {
+        font-size: 30px;
+        padding: 30px 0px 0px;
+    }
+
+   
+    .acc-del .box {
+        padding: 10px;
+    }
+
+    .acc-del .box .content h4 {
+        font-size: 12px;
+        height: 25px;
+    }
+
+    .acc-del .box .content .des {
+        font-size: 10px;
+    }
+
+    .acc-del .col-4 {
+        padding: 0 5px;
+    }
+
+    .acc-del .box img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .acc-del .box .img {
+        width: 50px;
+    }
+
+    /* my courses starts  */
+
+    .mycourses h2 i{
+        font-size: 25px;
+        margin-right: 2px;
+    }
+
+    .mycourses h2 {
+        font-size: 17px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .mycourses h4 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+
+    .mycourses .box .content {
+        padding-left: 10px;
+    }
+
+    .mycourses .box {
+        margin-top: 10px;
+        margin-bottom: 15px;
+        padding: 5px 0 15px 0;
+    }
+
+    .mycourses .box h6 {
+        font-size: 11px;
+        margin: 0;
+        padding: 0;
+    }
+    .mycourses .box1 {
+        padding: 10px 5px;
+    }
+
+    .mycourses .box .content .bar {
+        width: 200px;
+        height: 4px;
+    }
+
+    .mycourses .vdo {
+        height: 40px;
+        width: 40px;
+    }
+
+    .mycourses .vdo video {
+        border-radius: 5px;
+    }
+
+    .mycourses .box .content p {
+        font-size: 10px;
+        padding: 0;
+    }
+
+    .mycourses .box .box2 button{
+        padding: 8px 10px !important;
+        border-radius: 10px !important;
+        font-size: 12px;
+    }
+
+
+
+    /* my fees  */
+
+    
+    .myfees .box {
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    .myfees .box span {
+        font-size: 15px;
+    }
+
+
+    .myfees h2 {
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-size: 17px;
+    }
+
+
+    .myfees h2 i{
+        font-size: 25px;
+        margin-right: 2px;
+    }
+
+
+     th {
+        padding:15px 10px !important;
+    }
+
+
+    .table{
+        font-size: 10px;
+    }
+    
+    td {
+        padding: 15px 10px !important;
+        
+    }
+
+
+    /* how to refer  */
+        
+    .referral-form .last-part .submit-btn{
+        width: 100%;
+    }
+
+    /* claims  */
+
+    .claims .middle-part .box div {
+        font-size: 14px;
+    }
+
+    .claims .middle-part .box p{
+        font-size: 13px;
+    }
+
+    /* exam-qus  */
+
+    .exam-qus .mid-part .time-btn {
+        padding: 5px;
+        font-size: 12px;
+        border-radius: 7px;
+        position: absolute;
+        top: 95px;
+        right: 0;
+    }
+
+    /* referral  */
+
+    .referral .middle-part .right {
+        display: none;
+    }
+
+    /* student login  */
+
+    .stu-login .right {
+        display: none;
+    }
+    
+    .stu-login .bot {
+        left: 0;
+        right: 0;
+    }
+
+    .stu-login .left-img{
+        display: block;
+    }
+
+ /* student signup  */
+
+    #stu-signup .left {
+        height: 1000px;
+    }
+    
+    /* otp verification  */
+
+    .otp-ver p {
+        margin: 4px 0;
+        font-size: 13px;
+    }
+
+    .otp-ver .box {
+        margin-top: 50px;
+    }
+
+    .otp-ver .box .input-field {
+        width: 40px;
+        padding: 10px;
+    }
+
+    .otp-ver .box .otpfield {
+        margin-bottom: 15px;
+    }
+
+    .otp-ver .prm-btn {
+        padding: 10px 0px !important;
+    }
+   
+
+
+
+}
+
+
+
+
+@media (min-width:426px) and (max-width:767px){
+
+     /* after login starts  */
+
+     .acc-del h2 {
+        font-size: 35px;
+        padding: 30px 0px 0px;
+    }
+
+   
+
+    .acc-del .box .content {
+        margin-top: 15px;
+    }
+
+    .acc-del .box {
+        padding: 10px;
+    }
+
+    .acc-del .box .content h4 {
+        font-size: 15px;
+    }
+
+    .acc-del .box .content .des {
+        font-size: 12px;
+    }
+
+    .acc-del .col-4 {
+        padding: 0 8px;
+    }
+
+    .acc-del .box img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .acc-del .box .img {
+        width: 50px;
+    }
+
+    .acc-del .box .content {
+        height: 4rem;
+    }
+
+
+
+
+    /* fee  */
+
+    th {
+        padding: 25px 10px !important;
+    }
+
+
+    .table{
+        font-size: 14px;
+    }
+
+    .myfees .box {
+        font-size: 15px;
+    }
+
+    .myfees .box span {
+        font-size: 20px;
+    }
+
+     td {
+        padding: 15px 10px !important;
+    }
+
+     /* how to refer  */
+   
+     .referral-form .last-part .submit-btn{
+        width: 100%;
+    }
+
+    /* exam-qus  */
+
+    .exam-qus .mid-part .time-btn {
+        padding: 8px;
+        font-size: 14px;
+        border-radius: 8px;
+        position: absolute;
+        top: 95px;
+        right: 0;
+    }
+
+     /* referral  */
+
+
+    .referral .middle-part .right {
+        display: none;
+    }
+
+
+    /* student login  */
+
+    .stu-login .right {
+        display: none;
+    }
+
+     
+    .stu-login .bot {
+        left: 0;
+        right: 0;
+    }
+
+    .stu-login .left-img{
+        display: block;
+    }
+
+    /* student signup  */
+
+    #stu-signup .left {
+        height: 1000px;
+    }
+
+     /* otp verification  */
+
+     .otp-ver p {
+        margin: 4px 0;
+        font-size: 13px;
+    }
+
+    .otp-ver .box {
+        margin-top: 50px;
+    }
+
+    .otp-ver .box .input-field {
+        width: 40px;
+        padding: 10px;
+    }
+
+    .otp-ver .box .otpfield {
+        margin-bottom: 15px;
+    }
+
+    .otp-ver .prm-btn {
+        padding: 10px 0px !important;
+    }
+   
+
+
+   
+
+}
+
+@media (min-width:768px) and (max-width:991px){
+
+ /* after login  */
+    .acc-del h2 {
+        padding: 50px 0px 5px;
+    }
+
+
+    /* student signup  */
+
+    #stu-signup .left {
+        height: 720px;
+    }
+
+    
+   #stu-signup .right .laptop{
+        min-height: 280px;
+       
+    }
+
+
+    #stu-signup .right .img2{
+        width: 300px;
+    }
+
+
+}
+
+@media (min-width:992px) and (max-width:1199px){
+
+    /* header footer starts */
+   .navbar-brand {
+       margin-right: 10px;
+   }
+
+   button {
+       padding: 10px 23px;
+   }
+
+    /* header footer ends */
+}
+
+
